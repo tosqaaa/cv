@@ -9,14 +9,6 @@ html, body {
     background-color: #fff;
 }
 
-/* header */
-.header-title {
-    width: 80%;
-    padding: 2% 10%;
-    font-size: 2.5em;
-    font-family: 'Kanit', sans-serif;
-    font-weight: 700;
-}
 /* main */
 .wrapper-main-part {
     display: flex;
@@ -24,31 +16,37 @@ html, body {
 .title-header {
     margin-top: 0;
     background-color: rgb(62, 62, 187);
+    padding-top: 5%;
+    padding-bottom: 5%;
     color: #fff;
+    height: 200px;
 }
 .main {
-    background-color: #c6c6c6;
+    background-color: #fff;
     width: 70%;
     flex-basis: 70%;
-    border: 1px solid blue;
     font-family: 'Kanit', sans-serif;
 
 }
 
 
-.main h2{
+.main-title{
     font-size: 5em;
     margin-bottom: 0;
     margin-top: 0;
     padding-left: 5%;
     
 }
-.main h3 {
+.main-subtitle {
     padding-left: 5%;
     padding-bottom: 2%;
     font-size: 2em;
     margin-top: 0;
     margin-bottom: 0;
+}
+
+.main-title-list {
+    font-size: 1.5em;
 }
 
 /* profile */
@@ -57,7 +55,6 @@ html, body {
     color: blue;
     flex-basis: 30%;
     background-color: #c6c6c6;
-    border: 1px solid blue;
     background-color: rgb(17, 20, 72);
     font-family: 'Kanit', sans-serif;
 
@@ -77,7 +74,10 @@ html, body {
     list-style: none;
     padding-top: 3%;
     margin: 0;
-    padding-left: 20%;
+}
+
+.profile-list:last-child{
+    padding-bottom: 15%;
 }
 
 .profile-list li{
@@ -95,4 +95,39 @@ html, body {
     padding-right: 10%;
     padding-top: 50%;
     width: 80%;
+}
+
+.main-information {
+    padding: 2% 10%;
+    width: 80%;
+}
+
+.about-me {
+    display: block; 
+    text-align: justify;
+    font-size: 1.2em;
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+.main-list {
+    font-size: 1.2em;
+    list-style:none;
+    padding-left: 0;
+
+}
+.main-list li{
+    padding-bottom: 2%;
+}
+
+.image-logo {
+    margin-top: 10%;
+    margin-left: 25%;
+    border: 1px solid blue;
+    border-radius: 110px;
+    width: 220px;
+}
+.footer {
+    text-align: center;
+    padding-top: 2%;
 }
